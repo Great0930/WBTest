@@ -10,7 +10,7 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, "dist"),
         filename: "bundle.js",
-        publicPath: "https://great0930.github.io/WBTest/", //pathOrUrlWhenProductionBuild
+        publicPath: "/WBTest/", //pathOrUrlWhenProductionBuild
     },
     module: {
         rules: [
